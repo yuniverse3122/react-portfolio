@@ -1,0 +1,28 @@
+{
+  "portfolio": [
+    {
+      "image": "/Portfolio/Assets/foreignFancies.gif",
+      "title": "Foreign Flavors",
+      "description": "Pure HTML & CSS",
+      "url": ""
+    },
+    {
+      "image": "/Portfolio/Assets/checkers.gif",
+      "title": "Space Checkers",
+      "description": "Computer Graphics, JavaScript",
+      "url": "https://github.com/yuniverse3122/CompGraphProj"
+    },
+    {
+      "image": "/Portfolio/Assets/android.gif",
+      "title": "Circle of Trust",
+      "description": "Android Studio, Kotlin, Microsoft Azure",
+      "url": "https://www.youtube.com/watch?v=dbC2gVl46U4"
+    },
+    {
+      "image": "/Portfolio/Assets/explosion.gif",
+      "title": "FOEx",
+      "description": "Vue.JS, LoopBack4, NodeJS",
+      "url": "https://dev.foexsuite.com/login"
+    }
+  ]
+}
