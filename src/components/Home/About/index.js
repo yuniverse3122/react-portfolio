@@ -3,7 +3,6 @@ import AnimatedLetters from '../../AnimatedLetters'
 import { useState, useEffect } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
-  faAngular,
   faCss3,
   faGitAlt,
   faHtml5,

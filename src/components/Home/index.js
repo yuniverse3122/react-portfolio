@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState } from 'react'
-import Logo from './Logo'
+
 import Loader from 'react-loaders'
 import LogoD from '../../assets/images/D_logo.svg'
 
@@ -26,10 +26,9 @@ const Home = () => {
   ]
 
   useEffect(() => {
-    return () =>
-      setTimeout(() => {
-        setLetterClass('text-animate-hover')
-      }, 4000)
+    setTimeout(() => {
+      setLetterClass('text-animate-hover')
+    }, 4000)
   }, [])
 
   return (
@@ -72,7 +71,28 @@ const Home = () => {
             Contact Me
           </Link>
         </div>
-        <Logo />
+        {/* <Logo /> */}
+        <div className="logo-container">
+          <img
+            className="solid-logo"
+            src={LogoD}
+            alt="JavaScript,  Developer"
+          />
+
+          <svg
+            width="559pt"
+            height="2000pt"
+            version="1.0"
+            viewBox="0 0 559 897"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              className="svg-container"
+              transform="translate(0 457) scale(.1 -.1)"
+              fill="none"
+            ></g>
+          </svg>
+        </div>
       </div>
       <div className="waves">
         <svg
